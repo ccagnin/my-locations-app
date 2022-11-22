@@ -25,7 +25,7 @@ const PlaceList = props => {
                     description={place.description} 
                     address={place.address} 
                     creatorId={place.creator} 
-                    coordanates={place.location} 
+                    coordinates={place.location} 
                     />
                 ))}
             </ul>
